@@ -1,10 +1,18 @@
 -- Title: shadow
 
--- Plugin: Crear sombra punteada
+-- Plugin: Crear sombra punteada en el área seleccionada
 
 -- Caracteres de bloques
 local solid_block = '█'  -- Bloque sólido
 local dotted_block = '░' -- Bloque punteado para la sombra
+
+-- Asegurarse de que las coordenadas de inicio sean menores o iguales a las de fin
+if start_x > end_x then
+    start_x, end_x = end_x, start_x
+end
+if start_y > end_y then
+    start_y, end_y = end_y, start_y
+end
 
 -- Recorrer el área seleccionada
 for y = start_y, end_y do
