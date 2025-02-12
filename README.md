@@ -6,6 +6,10 @@ A collection of powerful plugins for IcyDraw, the modern ANSI art editor - succe
 
 ### Drawing Tools
 - **frame** - Creates elegant double-line frames around your selected area
+- **grid** - Creates a pattern of crosses (┼) in the selected area
+  - Perfect for creating grid patterns
+  - Simple and clean design
+  - Useful for table layouts or pixel-perfect alignments
 - **shadow** - Adds a subtle shadow effect to solid blocks (█), perfect for creating depth
 - **horizontal_gradient** - Generates a horizontal gradient using block characters (█▓▒░)
 - **vertical_gradient** - Creates a vertical gradient using block characters (█▓▒░)
