@@ -1,14 +1,39 @@
-# plugins_icy_draw
-Various additions to icy_draw
+# IcyDraw Plugins Collection 🎨
 
-# IcyDraw
-IcyDraw is the successor of MysticDraw, an ANSI drawing tool I developed in 1996 and last updated in 2003. Due to lack of feedback, I lost interest there. Now, 20 years later, I've decided to give it an update, and here it is.
+A collection of powerful plugins for IcyDraw, the modern ANSI art editor - successor to the classic MysticDraw (1996-2003).
 
-These plugins can work in the selected area. If no area is selected, they will use the entire workspace.
+## 🚀 Available Plugins
 
-[Link to GitHub Repository](https://github.com/mkrueger/icy_tools/tree/master/crates/icy_draw)
+### Drawing Tools
+- **frame** - Creates elegant double-line frames around your selected area
+- **shadow** - Adds a subtle shadow effect to solid blocks (█), perfect for creating depth
+- **horizontal_gradient** - Generates a horizontal gradient using block characters (█▓▒░)
+- **vertical_gradient** - Creates a vertical gradient using block characters (█▓▒░)
 
-- **frame**: Creates a double-line frame.
-- **invert-colors**: Switches light colors to dark and dark to light (applies only to blocks).
-- **shadow**: Adds a shadow (applies only to blocks).
-- **elite-writing**: Converts letters to hacker format.
+### Color Effects
+- **invert-colors** - Smart color inverter that switches between light and dark colors
+  - Perfect for creating negative effects
+  - Only affects block characters
+  - Preserves original design integrity
+
+### Text Effects
+- **elite-writing** - Transform regular text into stylized "leetspeak"
+  - Converts letters to special characters (e→ε, a→α, etc.)
+  - Great for creating unique typography
+  - Perfect for ASCII art signatures
+
+## 🔧 Usage
+These plugins work in two modes:
+- On a selected area (when you make a selection)
+- On the entire workspace (when no selection is made)
+
+## 🔗 Links
+- [IcyDraw GitHub Repository](https://github.com/mkrueger/icy_tools/tree/master/crates/icy_draw)
+
+## 💡 Tips
+- Combine plugins for unique effects (e.g., frame + shadow)
+- Use gradients with different colors for dramatic effects
+- Experiment with elite-writing on different fonts
+
+---
+*Created with ❄️ for the ANSI art community*
