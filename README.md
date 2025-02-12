@@ -13,6 +13,10 @@ A collection of powerful plugins for IcyDraw, the modern ANSI art editor - succe
   - Perfect for creating texture effects
   - Uses different density blocks for varied patterns
   - Great for backgrounds and artistic effects
+- **random_half_blocks** - Fills area with random half-block characters (▀▄▌▐)
+  - Creates interesting geometric patterns
+  - Perfect for textured backgrounds
+  - Ideal for retro-style designs
 
 ### Color Effects
 - **invert-colors** - Smart color inverter that switches between light and dark colors
