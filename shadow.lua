@@ -1,4 +1,4 @@
--- Title: shadow
+-- Title: Shadow
 
 -- Plugin: Crear sombra punteada en el área seleccionada
 
