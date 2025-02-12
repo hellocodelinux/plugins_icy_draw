@@ -7,3 +7,8 @@ IcyDraw is the successor of MysticDraw, an ANSI drawing tool I developed in 1996
 These plugins can work in the selected area. If no area is selected, they will use the entire workspace.
 
 [Link to GitHub Repository](https://github.com/mkrueger/icy_tools/tree/master/crates/icy_draw)
+
+- **frame**: Creates a double-line frame.
+- **invert-colors**: Switches light colors to dark and dark to light (applies only to blocks).
+- **shadow**: Adds a shadow (applies only to blocks).
+- **elite-writing**: Converts letters to hacker format.
