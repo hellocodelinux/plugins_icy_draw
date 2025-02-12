@@ -9,6 +9,10 @@ A collection of powerful plugins for IcyDraw, the modern ANSI art editor - succe
 - **shadow** - Adds a subtle shadow effect to solid blocks (█), perfect for creating depth
 - **horizontal_gradient** - Generates a horizontal gradient using block characters (█▓▒░)
 - **vertical_gradient** - Creates a vertical gradient using block characters (█▓▒░)
+- **random_blocks** - Fills the selected area with random block characters (█▓▒░)
+  - Perfect for creating texture effects
+  - Uses different density blocks for varied patterns
+  - Great for backgrounds and artistic effects
 
 ### Color Effects
 - **invert-colors** - Smart color inverter that switches between light and dark colors
