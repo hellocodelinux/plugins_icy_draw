@@ -4,35 +4,16 @@ A collection of powerful plugins for IcyDraw, the modern ANSI art editor - succe
 
 ## 🚀 Available Plugins
 
-### Drawing Tools
 - **frame** - Creates elegant double-line frames around your selected area
 - **grid** - Creates a pattern of crosses (┼) in the selected area
-  - Perfect for creating grid patterns
-  - Simple and clean design
-  - Useful for table layouts or pixel-perfect alignments
 - **shadow** - Adds a subtle shadow effect to solid blocks (█), perfect for creating depth
 - **horizontal_gradient** - Generates a horizontal gradient using block characters (█▓▒░)
 - **vertical_gradient** - Creates a vertical gradient using block characters (█▓▒░)
 - **random_blocks** - Fills the selected area with random block characters (█▓▒░)
-  - Perfect for creating texture effects
-  - Uses different density blocks for varied patterns
-  - Great for backgrounds and artistic effects
 - **random_half_blocks** - Fills area with random half-block characters (▀▄▌▐)
-  - Creates interesting geometric patterns
-  - Perfect for textured backgrounds
-  - Ideal for retro-style designs
-
-### Color Effects
+- **random-colors** - Applies random foreground colors to the selected area
 - **invert-colors** - Smart color inverter that switches between light and dark colors
-  - Perfect for creating negative effects
-  - Only affects block characters
-  - Preserves original design integrity
-
-### Text Effects
 - **elite-writing** - Transform regular text into stylized "leetspeak"
-  - Converts letters to special characters (e→ε, a→α, etc.)
-  - Great for creating unique typography
-  - Perfect for ASCII art signatures
 
 ## 🔧 Usage
 These plugins work in two modes:
