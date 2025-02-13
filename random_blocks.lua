@@ -1,4 +1,6 @@
--- Title: random blocks fill
+-- Title: Random Block Fill Pattern
+
+-- Description: Draws a random block fill pattern in a rectangular region.
 
 local blocks = {'█', '▓', '▒', '░'}
 
@@ -10,3 +12,5 @@ for y = start_y, end_y do
         buf:set_char(x, y, random_block)
     end
 end
+
+-- Author: Eduardo Castillo (hellocodelinux@gmail.com)

@@ -1,4 +1,7 @@
--- Title: Elite Writing
+-- Title: Elite Text Converter
+
+-- Description: Converts text to the Elite typewriter font.
+
 table = {
     ["e"] = "ε",
     ["E"] = "Σ",

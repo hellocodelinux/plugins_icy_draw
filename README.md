@@ -4,16 +4,47 @@ A collection of powerful plugins for IcyDraw, the modern ANSI art editor - succe
 
 ## 🚀 Available Plugins
 
-- **frame** - Creates elegant double-line frames
-- **grid** - Creates a pattern of crosses (┼)
-- **shadow** - Adds a subtle shadow effect to solid blocks (█), perfect for creating depth
-- **horizontal_gradient** - Generates a horizontal gradient using block characters (█▓▒░)
-- **vertical_gradient** - Creates a vertical gradient using block characters (█▓▒░)
-- **random_blocks** - Fills the selected area with random block characters (█▓▒░)
-- **random_half_blocks** - Fills area with random half-block characters (▀▄▌▐)
-- **random-colors** - Applies random foreground colors
-- **invert-colors** - Smart color inverter that switches between light and dark colors
-- **elite-writing** - Transform regular text into stylized "leetspeak"
+- **chessboard.lua**
+  - This script draws a chessboard pattern using alternating block characters (`█` and ` `). Ideal for creating classic board game visuals.
+
+- **color_inverter.lua**
+  - Inverts the colors of a rectangular region, creating a negative effect. Uses standard ANSI color codes.
+
+- **diagonal_pattern.lua**
+  - Draws a diagonal stripe pattern in a rectangular region using block characters (`█` and ` `). Great for dynamic backgrounds.
+
+- **double_line_frame.lua**
+  - Draws a double-line frame around a rectangular region using double-line box-drawing characters (`╔`, `╗`, `╚`, `╝`, `═`, `║`). Perfect for highlighting sections.
+
+- **elite-writing.lua**
+  - Converts text to the Elite typewriter font, giving a retro typewriter effect. Uses a custom set of characters for authenticity (e.g., `ε`, `Σ`, `¡`).
+
+- **grid_pattern.lua**
+  - Draws a grid pattern on the screen using plus, minus, and pipe characters (`┼`). Useful for creating structured layouts.
+
+- **horizontal_gradient.lua**
+  - Draws a horizontal gradient pattern in a rectangular region using a range of block characters with varying densities (`█`, `▓`, `▒`, `░`). Ideal for smooth transitions.
+
+- **horizontal_stripes.lua**
+  - Draws a horizontal striped pattern in a rectangular region using block characters (`█` and ` `). Adds a layered look to your artwork.
+
+- **random_blocks.lua**
+  - Draws a random block fill pattern in a rectangular region using various block characters (`█`, `▓`, `▒`, `░`). Creates a chaotic, pixelated effect.
+
+- **random_half_blocks.lua**
+  - Draws a random half-block fill pattern in a rectangular region using half-block characters (`▀`, `▄`, `▌`, `▐`). Adds a textured, semi-transparent look.
+
+- **random-colors.lua**
+  - Draws a random color fill pattern in a rectangular region using ANSI color codes. Perfect for vibrant, colorful backgrounds.
+
+- **shadow_effect.lua**
+  - This script creates a shadow effect by adding a dotted block (`░`) to the right of each solid block (`█`) in the selected area. Enhances depth and dimension.
+
+- **vertical_gradient.lua**
+  - Draws a vertical gradient pattern in a rectangular region using a range of block characters with varying densities (`█`, `▓`, `▒`, `░`). Ideal for smooth vertical transitions.
+
+- **vertical_stripes.lua**
+  - Draws a vertical stripes pattern in a rectangular region using block characters (`█` and ` `). Adds a vertical emphasis to your design.
 
 ## 🔧 Usage
 These plugins work in two modes:
@@ -25,6 +56,8 @@ These plugins work in two modes:
 
 ## 💡 Tips
 - Combine plugins for unique effects
+- Use patterns as backgrounds for your artwork
+- Experiment with different color combinations
 
 ## 🤝 Contribute!
 
