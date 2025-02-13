@@ -43,8 +43,6 @@ A collection of powerful plugins for IcyDraw, the modern ANSI art editor - succe
 - **vertical_gradient.lua**
   - Draws a vertical gradient pattern in a rectangular region using a range of block characters with varying densities (`█`, `▓`, `▒`, `░`). Ideal for smooth vertical transitions.
 
-- **vertical_stripes.lua**
-  - Draws a vertical stripes pattern in a rectangular region using block characters (`█` and ` `). Adds a vertical emphasis to your design.
 
 ## 🔧 Usage
 These plugins work in two modes:
