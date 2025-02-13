@@ -56,6 +56,10 @@ A collection of powerful plugins for IcyDraw, the modern ANSI art editor - succe
 - **matrix_pattern.lua**
   - Creates the iconic Matrix digital rain effect using Japanese katakana and Latin characters in bright green. Perfect for cyberpunk-style animations and backgrounds (`ﾊ`, `ﾐ`, `ﾋ`, `ｰ`, `ｳ`, `ｼ`, etc.).
 
+- **vertical_mirror.lua**
+  - Creates a vertical mirror copy outside of a rectangular region. Useful for creating symmetrical designs.
+
+
 ## 🔧 Usage
 These plugins work in two modes:
 - On a selected area (when you make a selection)
