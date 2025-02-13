@@ -1,6 +1,6 @@
--- Title: Color Inverter
+-- Title: Color Transformer
 
--- Description: Inverts the colors of a rectangular region.
+-- Description: Transforms the colors of a rectangular region by inverting them.
 
 local inversion_colores = {
     [0] = 8, [1] = 9, [2] = 10, [3] = 11, [4] = 12, [5] = 13, [6] = 14, [7] = 15,

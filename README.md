@@ -7,26 +7,23 @@ A collection of powerful plugins for IcyDraw, the modern ANSI art editor - succe
 - **chessboard.lua**
   - This script draws a chessboard pattern using alternating block characters (`█` and ` `). Ideal for creating classic board game visuals.
 
-- **color_inverter.lua**
-  - Inverts the colors of a rectangular region, creating a negative effect. Uses standard ANSI color codes.
-
-- **diagonal_pattern.lua**
-  - Draws a diagonal stripe pattern in a rectangular region using block characters (`█` and ` `). Great for dynamic backgrounds.
+- **color_transformer.lua**
+  - Transforms the colors by inverting them. Uses standard ANSI color codes.
 
 - **double_line_frame.lua**
-  - Draws a double-line frame around a rectangular region using double-line box-drawing characters (`╔`, `╗`, `╚`, `╝`, `═`, `║`). Perfect for highlighting sections.
+  - Draws a double-line frame using double-line box-drawing characters (`╔`, `╗`, `╚`, `╝`, `═`, `║`). Perfect for highlighting sections.
 
 - **elite-writing.lua**
   - Converts text to the Elite typewriter font, giving a retro typewriter effect. Uses a custom set of characters for authenticity (e.g., `ε`, `Σ`, `¡`).
 
 - **grid_pattern.lua**
-  - Draws a grid pattern on the screen using plus, minus, and pipe characters (`┼`). Useful for creating structured layouts.
+  - Draws a grid pattern using plus, minus, and pipe characters (`┼`). Useful for creating structured layouts.
 
 - **horizontal_gradient.lua**
-  - Draws a horizontal gradient pattern in a rectangular region using a range of block characters with varying densities (`█`, `▓`, `▒`, `░`). Ideal for smooth transitions.
+  - Draws a horizontal gradient pattern using a range of block characters with varying densities (`█`, `▓`, `▒`, `░`). Ideal for smooth transitions.
 
 - **horizontal_stripes.lua**
-  - Draws a horizontal striped pattern in a rectangular region using block characters (`█` and ` `). Adds a layered look to your artwork.
+  - Draws a horizontal striped pattern using block characters (`█` and ` `). Adds a layered look to your artwork.
 
 - **increase_intensity.lua**
   - Replaces blocks with a more dense block, respecting the original block's color. Useful for enhancing the intensity of your artwork.
@@ -37,27 +34,31 @@ A collection of powerful plugins for IcyDraw, the modern ANSI art editor - succe
   - `█` → `▓`, `▓` → `▒`, `▒` → `░`, `░` → ` `
 
 - **random_blocks.lua**
-  - Draws a random block fill pattern in a rectangular region using various block characters (`█`, `▓`, `▒`, `░`). Creates a chaotic, pixelated effect.
+  - Draws a random block fill pattern using various block characters (`█`, `▓`, `▒`, `░`). Creates a chaotic, pixelated effect.
 
 - **random_half_blocks.lua**
-  - Draws a random half-block fill pattern in a rectangular region using half-block characters (`▀`, `▄`, `▌`, `▐`). Adds a textured, semi-transparent look.
+  - Draws a random half-block fill pattern using half-block characters (`▀`, `▄`, `▌`, `▐`). Adds a textured, semi-transparent look.
 
 - **random-colors.lua**
-  - Draws a random color fill pattern in a rectangular region using ANSI color codes. Perfect for vibrant, colorful backgrounds.
+  - Draws a random color fill pattern using ANSI color codes. Perfect for vibrant, colorful backgrounds.
 
 - **shadow_effect.lua**
-  - This script creates a shadow effect by adding a dotted block (`░`) to the right of each solid block (`█`) in the selected area. Enhances depth and dimension.
+  - This script creates a shadow effect by adding a dotted block (`░`) to the right of each solid block (`█`). Enhances depth and dimension.
 
 - **vertical_gradient.lua**
-  - Draws a vertical gradient pattern in a rectangular region using a range of block characters with varying densities (`█`, `▓`, `▒`, `░`). Ideal for smooth vertical transitions.
+  - Draws a vertical gradient pattern using a range of block characters with varying densities (`█`, `▓`, `▒`, `░`). Ideal for smooth vertical transitions.
 
-- **matrix.lua**
+- **vertical_stripes.lua**
+  - Draws a vertical striped pattern using block characters (`█` and ` `). Adds a layered look to your artwork.
+
+- **matrix_pattern.lua**
   - Creates the iconic Matrix digital rain effect using Japanese katakana and Latin characters in bright green. Perfect for cyberpunk-style animations and backgrounds (`ﾊ`, `ﾐ`, `ﾋ`, `ｰ`, `ｳ`, `ｼ`, etc.).
 
 ## 🔧 Usage
 These plugins work in two modes:
 - On a selected area (when you make a selection)
 - On the entire workspace (when no selection is made)
+- Some plugins use the foreground and background colors that are currently selected
 
 ## 🔗 Links
 - [IcyDraw GitHub Repository](https://github.com/mkrueger/icy_tools/tree/master/crates/icy_draw)
