@@ -1,4 +1,4 @@
--- Title: vertical gradient
+-- Title: Vertical Gradient Pattern
 
 -- Description: Draws a vertical gradient pattern in a rectangular region.
 
