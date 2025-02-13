@@ -28,6 +28,14 @@ A collection of powerful plugins for IcyDraw, the modern ANSI art editor - succe
 - **horizontal_stripes.lua**
   - Draws a horizontal striped pattern in a rectangular region using block characters (`█` and ` `). Adds a layered look to your artwork.
 
+- **increase_intensity.lua**
+  - Replaces blocks with a more dense block, respecting the original block's color. Useful for enhancing the intensity of your artwork.
+  - ` ` → `░`, `░` → `▒`, `▒` → `▓`, `▓` → `█`
+
+- **lower_intensity.lua**
+  - Replaces blocks with a less dense block, respecting the original block's color. Useful for reducing the intensity of your artwork.
+  - `█` → `▓`, `▓` → `▒`, `▒` → `░`, `░` → ` `
+
 - **random_blocks.lua**
   - Draws a random block fill pattern in a rectangular region using various block characters (`█`, `▓`, `▒`, `░`). Creates a chaotic, pixelated effect.
 
