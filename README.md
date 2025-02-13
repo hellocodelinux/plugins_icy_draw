@@ -43,6 +43,8 @@ A collection of powerful plugins for IcyDraw, the modern ANSI art editor - succe
 - **vertical_gradient.lua**
   - Draws a vertical gradient pattern in a rectangular region using a range of block characters with varying densities (`█`, `▓`, `▒`, `░`). Ideal for smooth vertical transitions.
 
+- **matrix.lua**
+  - Creates the iconic Matrix digital rain effect using Japanese katakana and Latin characters in bright green. Perfect for cyberpunk-style animations and backgrounds (`ﾊ`, `ﾐ`, `ﾋ`, `ｰ`, `ｳ`, `ｼ`, etc.).
 
 ## 🔧 Usage
 These plugins work in two modes:
