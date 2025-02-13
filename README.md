@@ -59,6 +59,8 @@ A collection of powerful plugins for IcyDraw, the modern ANSI art editor - succe
 - **vertical_mirror.lua**
   - Creates a vertical mirror copy outside of a rectangular region. Useful for creating symmetrical designs.
 
+- **radial_gradient.lua**
+  - Draws a radial gradient pattern from a central point using block characters with varying densities (`█`, `▓`, `▒`, `░`). Ideal for smooth, circular transition effects.
 
 ## 🔧 Usage
 These plugins work in two modes:
