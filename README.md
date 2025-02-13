@@ -2,6 +2,8 @@
 
 A collection of powerful plugins for IcyDraw, the modern ANSI art editor - successor to the classic MysticDraw (1996-2003).
 
+[Lua Parameters Documentation](https://github.com/hellocodelinux/plugins_icy_draw/blob/main/LUA_PARAMETERS.txt) - Detailed documentation of global parameters and methods available in Lua scripts.
+
 ## 🚀 Available Plugins
 
 - **chessboard.lua**
