@@ -1,0 +1,41 @@
+### Global Parameters
+These parameters are set in the global Lua environment:
+
+- `start_x`: Initial X coordinate of the selection.
+- `end_x`: Final X coordinate of the selection.
+- `start_y`: Initial Y coordinate of the selection.
+- `end_y`: Final Y coordinate of the selection.
+- `log`: Function to log messages.
+
+### Methods and Fields of `LuaBufferView`
+These methods and fields are available in the `LuaBufferView` instance passed to Lua as `buf`:
+
+#### Fields
+- `height`: Buffer height.
+- `width`: Buffer width.
+- `font_page`: Current font page.
+- `layer`: Current layer.
+- `fg`: Foreground color.
+- `bg`: Background color.
+- `x`: Cursor X position.
+- `y`: Cursor Y position.
+- `layer_count`: Number of layers in the buffer.
+
+#### Methods
+- `fg_rgb(r, g, b)`: Sets the foreground color using RGB values.
+- `bg_rgb(r, g, b)`: Sets the background color using RGB values.
+- `set_char(x, y, ch)`: Sets a character at position `(x, y)`.
+- `get_char(x, y)`: Gets the character at position `(x, y)`.
+- `pickup_char(x, y)`: Picks up the character at position `(x, y)` and sets its attributes to the cursor.
+- `set_fg(x, y, col)`: Sets the foreground color at position `(x, y)`.
+- `get_fg(x, y)`: Gets the foreground color at position `(x, y)`.
+- `set_bg(x, y, col)`: Sets the background color at position `(x, y)`.
+- `get_bg(x, y)`: Gets the background color at position `(x, y)`.
+- `print(str)`: Prints a string at the current cursor position.
+- `gotoxy(x, y)`: Moves the cursor to position `(x, y)`.
+- `set_layer_position(layer, x, y)`: Sets the position of the layer.
+- `get_layer_position(layer)`: Gets the position of the layer.
+- `set_layer_visible(layer, is_visible)`: Sets the visibility of the layer.
+- `get_layer_visible(layer)`: Gets the visibility of the layer.
+- `clear()`: Clears the buffer.
+
