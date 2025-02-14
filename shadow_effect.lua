@@ -3,7 +3,7 @@
 -- Description: This script creates a shadow effect by adding a dotted block to the right of each solid block in the selected area.
 
 local solid_block = '█'
-local dotted_block = '░'
+local dotted_block = '▒'
 
 if start_x > end_x then
     start_x, end_x = end_x, start_x

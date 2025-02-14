@@ -25,9 +25,11 @@ end
 for y = start_y, end_y do
     for x = start_x, end_x do
         local current_char = buf:get_char(x, y)
+        local fg_color = buf:get_fg(x, y)
         if current_char ~= noblock then
             local replacement_char = get_replacement_block(current_char)
             buf:set_char(x, y, replacement_char)
+            buf:set_fg(x, y, fg_color)
         end
     end
 end
