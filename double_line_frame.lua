@@ -2,6 +2,12 @@
 
 -- Description: Draws a double-line frame around a rectangular region.
 
+-- Author: Eduardo Castillo (hellocodelinux@gmail.com)
+
+-- This script uses parameters defined in the LUA_PARAMETERS.txt file.
+
+-- https://github.com/hellocodelinux/plugins_icy_draw
+
 local estilo_doble = {
     esquina_sup_izq = '╔',
     esquina_sup_der = '╗',
@@ -32,5 +38,3 @@ for y = start_y + 1, end_y - 1 do
     buf:set_char(start_x, y, estilo_doble.vertical)
     buf:set_char(end_x, y, estilo_doble.vertical)
 end
-
--- Author: Eduardo Castillo (hellocodelinux@gmail.com)

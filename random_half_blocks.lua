@@ -2,6 +2,12 @@
 
 -- Description: Draws a random half-block fill pattern in a rectangular region.
 
+-- Author: Eduardo Castillo (hellocodelinux@gmail.com)
+
+-- This script uses parameters defined in the LUA_PARAMETERS.txt file.
+
+-- https://github.com/hellocodelinux/plugins_icy_draw
+
 local blocks = {'▀', '▄', '▌', '▐'}
 
 math.randomseed(os.time())
@@ -12,5 +18,3 @@ for y = start_y, end_y do
         buf:set_char(x, y, random_block)
     end
 end
-
--- Author: Eduardo Castillo (hellocodelinux@gmail.com)

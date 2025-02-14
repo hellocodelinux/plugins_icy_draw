@@ -2,6 +2,12 @@
 
 -- Description: Creates a vertical mirror copy outside of a rectangular region.
 
+-- Author: Eduardo Castillo (hellocodelinux@gmail.com)
+
+-- This script uses parameters defined in the LUA_PARAMETERS.txt file.
+
+-- https://github.com/hellocodelinux/plugins_icy_draw
+
 for y = start_y, end_y do
     for x = start_x, end_x do
         local mirror_x = end_x + (end_x - x) + 1
@@ -13,5 +19,3 @@ for y = start_y, end_y do
         buf:set_bg(mirror_x, y, bg_color)
     end
 end
-
--- Author: Eduardo Castillo (hellocodelinux@gmail.com)

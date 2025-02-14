@@ -2,6 +2,12 @@
 
 -- Description: This script draws a chessboard pattern.
 
+-- Author: Eduardo Castillo (hellocodelinux@gmail.com)
+
+-- This script uses parameters defined in the LUA_PARAMETERS.txt file.
+
+-- https://github.com/hellocodelinux/plugins_icy_draw
+
 local black_block = '█'
 local white_block = ' '
 
@@ -21,5 +27,3 @@ for y = start_y, end_y do
         end
     end
 end
-
--- Author: Eduardo Castillo (hellocodelinux@gmail.com)

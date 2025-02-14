@@ -2,6 +2,12 @@
 
 -- Description: This script creates a shadow effect by adding a dotted block to the right of each solid block in the selected area.
 
+-- Author: Eduardo Castillo (hellocodelinux@gmail.com)
+
+-- This script uses parameters defined in the LUA_PARAMETERS.txt file.
+
+-- https://github.com/hellocodelinux/plugins_icy_draw
+
 local solid_block = '█'
 local dotted_block = '▒'
 
@@ -27,5 +33,3 @@ for y = start_y, end_y do
         end
     end
 end
-
--- Author: Eduardo Castillo (hellocodelinux@gmail.com)

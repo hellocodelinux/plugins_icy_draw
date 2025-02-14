@@ -2,6 +2,12 @@
 
 -- Description: Replaces blocks with a more dense block, respecting the original block's color.
 
+-- Author: Eduardo Castillo (hellocodelinux@gmail.com)
+
+-- This script uses parameters defined in the LUA_PARAMETERS.txt file.
+
+-- https://github.com/hellocodelinux/plugins_icy_draw
+
 local soblock = '█'
 local shblock = '▓'
 local hablock = '▒'
@@ -33,5 +39,3 @@ for y = start_y, end_y do
         end
     end
 end
-
--- Author: Eduardo Castillo (hellocodelinux@gmail.com)

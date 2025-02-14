@@ -2,6 +2,12 @@
 
 -- Description: Draws a random color fill pattern in a rectangular region.
 
+-- Author: Eduardo Castillo (hellocodelinux@gmail.com)
+
+-- This script uses parameters defined in the LUA_PARAMETERS.txt file.
+
+-- https://github.com/hellocodelinux/plugins_icy_draw
+
 if start_x > end_x then
     start_x, end_x = end_x, start_x
 end
@@ -23,5 +29,3 @@ for y = start_y, end_y do
         buf:set_fg(x, y, color_fg)
     end
 end
-
--- Author: Eduardo Castillo (hellocodelinux@gmail.com)

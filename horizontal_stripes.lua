@@ -2,6 +2,12 @@
 
 -- Description: Draws a horizontal striped pattern in a rectangular region.
 
+-- Author: Eduardo Castillo (hellocodelinux@gmail.com)
+
+-- This script uses parameters defined in the LUA_PARAMETERS.txt file.
+
+-- https://github.com/hellocodelinux/plugins_icy_draw
+
 local stripe_block = '█'
 local empty_block = ' '
 
@@ -18,5 +24,3 @@ for y = start_y, end_y do
         buf:set_char(x, y, block)
     end
 end
-
--- Author: Eduardo Castillo (hellocodelinux@gmail.com)

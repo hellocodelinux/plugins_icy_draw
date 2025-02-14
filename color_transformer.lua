@@ -2,6 +2,12 @@
 
 -- Description: Transforms the colors of a rectangular region by inverting them.
 
+-- Author: Eduardo Castillo (hellocodelinux@gmail.com)
+
+-- This script uses parameters defined in the LUA_PARAMETERS.txt file.
+
+-- https://github.com/hellocodelinux/plugins_icy_draw
+
 local inversion_colores = {
     [0] = 8, [1] = 9, [2] = 10, [3] = 11, [4] = 12, [5] = 13, [6] = 14, [7] = 15,
     [8] = 0, [9] = 1, [10] = 2, [11] = 3, [12] = 4, [13] = 5, [14] = 6, [15] = 7
@@ -26,5 +32,3 @@ for y = start_y, end_y do
         buf:set_bg(x, y, bg_invertido)
     end
 end
-
--- Author: Eduardo Castillo (hellocodelinux@gmail.com)
