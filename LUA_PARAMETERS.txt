@@ -1,3 +1,16 @@
+### Script Header Format
+Each script should start with the following header:
+
+-- Title: <Script Title>
+-- Path: <Menu Sub-category>
+-- Description: <Brief description of the script>
+-- Author: <Author's Name and Contact>
+-- This script uses parameters defined in the LUA_PARAMETERS.txt file.
+-- https://github.com/hellocodelinux/plugins_icy_draw
+
+The Title is the name that will appear in the menu.
+The Path is the sub-category of the menu.
+
 ### Global Parameters
 These parameters are set in the global Lua environment:
 
