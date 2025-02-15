@@ -13,14 +13,11 @@
 local patterns = {'▌', '▐'}
 math.randomseed(os.time())
 
--- Generate horizontal pattern first
 local horizontal_pattern = {}
 for x = start_x, end_x do
-    -- Randomly choose between left and right half blocks
     horizontal_pattern[x] = (math.random(1, 2) == 1) and patterns[1] or patterns[2]
 end
 
--- Apply pattern vertically
 for y = start_y, end_y do
     for x = start_x, end_x do
         buf:set_char(x, y, horizontal_pattern[x])
