@@ -69,7 +69,8 @@ A collection of powerful plugins for IcyDraw, the modern ANSI art editor - succe
   - Converts all uppercase letters (A-Z) to lowercase (a-z). Useful for standardizing text to lowercase.
 
 - **barcode_pattern.lua**
-  - Generates a barcode-like pattern using half-block characters (`▌`, `▐`) and spaces. Creates realistic-looking barcode effects.
+  - Generates a barcode-like pattern using half-block characters (`▌`, `▐`).
+  Creates realistic-looking barcode effects.
 
 ## 🔧 Usage
 These plugins work in two modes:
