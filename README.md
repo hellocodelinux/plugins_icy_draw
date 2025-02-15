@@ -4,6 +4,14 @@ A collection of powerful plugins for IcyDraw, the modern ANSI art editor - succe
 
 [Lua Parameters Documentation](https://github.com/hellocodelinux/plugins_icy_draw/blob/main/LUA_PARAMETERS.txt) - Detailed documentation of global parameters and methods available in Lua scripts.
 
+## 💝 Support the Project
+
+If you find these plugins useful and want to support their continued development, consider making a donation! Every contribution helps maintain and improve the project.
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/eduardocastillo1170) 
+
+Your support keeps this project alive! 🙏 Thank you!
+
 ## 🚀 Available Plugins (25)
 
 - **chessboard.lua**
