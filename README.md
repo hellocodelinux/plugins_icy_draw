@@ -86,6 +86,7 @@ These plugins work in two modes:
 
 ## 🔗 Links
 - [IcyDraw GitHub Repository](https://github.com/mkrueger/icy_tools/tree/master/crates/icy_draw)
+- [IcyDraw Compatible Fonts](https://github.com/hellocodelinux/fonts_icy_draw) - Collection of fonts compatible with both THEDRAW (MSDOS) and ICY_DRAW
 
 ## 💡 Tips
 - Combine plugins for unique effects
