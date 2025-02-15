@@ -1,13 +1,8 @@
 -- Title: Grid Pattern
-
 -- Path: Patterns
-
 -- Description: Draws a grid pattern on the screen.
-
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)
-
 -- This script uses parameters defined in the LUA_PARAMETERS.txt file.
-
 -- https://github.com/hellocodelinux/plugins_icy_draw
 
 local spacing = 1

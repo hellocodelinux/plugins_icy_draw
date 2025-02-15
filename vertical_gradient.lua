@@ -1,13 +1,8 @@
 -- Title: Vertical Gradient Pattern
-
 -- Path: Patterns
-
 -- Description: Draws a vertical gradient pattern in a rectangular region.
-
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)
-
 -- This script uses parameters defined in the LUA_PARAMETERS.txt file.
-
 -- https://github.com/hellocodelinux/plugins_icy_draw
 
 local soblock = '█'

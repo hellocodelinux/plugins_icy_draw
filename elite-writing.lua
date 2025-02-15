@@ -1,13 +1,8 @@
 -- Title: Elite Text Converter
-
 -- Path: Text
-
 -- Description: Converts text to the Elite typewriter font using CP437 characters for ANSI.
-
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)
-
 -- This script uses parameters defined in the LUA_PARAMETERS.txt file.
-
 -- https://github.com/hellocodelinux/plugins_icy_draw
 
 table = {

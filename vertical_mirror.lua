@@ -1,13 +1,8 @@
 -- Title: Vertical Mirror Pattern
-
 -- Path: Patterns
-
 -- Description: Creates a vertical mirror copy outside of a rectangular region.
-
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)
-
 -- This script uses parameters defined in the LUA_PARAMETERS.txt file.
-
 -- https://github.com/hellocodelinux/plugins_icy_draw
 
 for y = start_y, end_y do

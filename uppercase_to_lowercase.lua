@@ -1,13 +1,8 @@
 -- Title: Uppercase to Lowercase Converter
-
 -- Path: Text
-
 -- Description: Converts all uppercase letters (A-Z) to lowercase (a-z).
-
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)
-
 -- This script uses parameters defined in the LUA_PARAMETERS.txt file.
-
 -- https://github.com/hellocodelinux/plugins_icy_draw
 
 local table = {

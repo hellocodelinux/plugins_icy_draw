@@ -1,13 +1,8 @@
 -- Title: Matrix Digital Rain Pattern
-
 -- Path: Patterns
-
 -- Description: Creates a Matrix-style digital rain pattern using katakana characters and numbers.
-
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)
-
 -- This script uses parameters defined in the LUA_PARAMETERS.txt file.
-
 -- https://github.com/hellocodelinux/plugins_icy_draw
 
 local matrix_chars = {

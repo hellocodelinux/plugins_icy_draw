@@ -1,13 +1,8 @@
 -- Title: Barcode Pattern Generator
-
 -- Path: Patterns
-
 -- Description: Generates a barcode-like pattern using half blocks.
-
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)
-
 -- This script uses parameters defined in the LUA_PARAMETERS.txt file.
-
 -- https://github.com/hellocodelinux/plugins_icy_draw
 
 local patterns = {'▌', '▐'}

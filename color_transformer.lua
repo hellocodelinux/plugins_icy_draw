@@ -1,13 +1,8 @@
 -- Title: Color Transformer
-
 -- Path: Colors
-
 -- Description: Transforms the colors of a rectangular region by inverting them.
-
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)
-
 -- This script uses parameters defined in the LUA_PARAMETERS.txt file.
-
 -- https://github.com/hellocodelinux/plugins_icy_draw
 
 local inversion_colores = {

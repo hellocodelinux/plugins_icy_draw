@@ -4,7 +4,7 @@ A collection of powerful plugins for IcyDraw, the modern ANSI art editor - succe
 
 [Lua Parameters Documentation](https://github.com/hellocodelinux/plugins_icy_draw/blob/main/LUA_PARAMETERS.txt) - Detailed documentation of global parameters and methods available in Lua scripts.
 
-## 🚀 Available Plugins
+## 🚀 Available Plugins (23)
 
 - **chessboard.lua**
   - This script draws a chessboard pattern using alternating block characters (`█` and ` `). Ideal for creating classic board game visuals.
@@ -28,12 +28,10 @@ A collection of powerful plugins for IcyDraw, the modern ANSI art editor - succe
   - Draws a horizontal striped pattern using block characters (`█` and ` `). Adds a layered look to your artwork.
 
 - **increase_intensity.lua**
-  - Replaces blocks with a more dense block, respecting the original block's color. Useful for enhancing the intensity of your artwork.
-  - ` ` → `░`, `░` → `▒`, `▒` → `▓`, `▓` → `█`
+  - Replaces blocks with a more dense block, respecting the original block's color. Useful for enhancing the intensity of your artwork. - ` ` → `░`, `░` → `▒`, `▒` → `▓`, `▓` → `█`
 
 - **lower_intensity.lua**
-  - Replaces blocks with a less dense block, respecting the original block's color. Useful for reducing the intensity of your artwork.
-  - `█` → `▓`, `▓` → `▒`, `▒` → `░`, `░` → ` `
+  - Replaces blocks with a less dense block, respecting the original block's color. Useful for reducing the intensity of your artwork. - `█` → `▓`, `▓` → `▒`, `▒` → `░`, `░` → ` `
 
 - **random_blocks.lua**
   - Draws a random block fill pattern using various block characters (`█`, `▓`, `▒`, `░`). Creates a chaotic, pixelated effect.
@@ -69,8 +67,13 @@ A collection of powerful plugins for IcyDraw, the modern ANSI art editor - succe
   - Converts all uppercase letters (A-Z) to lowercase (a-z). Useful for standardizing text to lowercase.
 
 - **barcode_pattern.lua**
-  - Generates a barcode-like pattern using half-block characters (`▌`, `▐`).
-  Creates realistic-looking barcode effects.
+  - Generates a barcode-like pattern using half-block characters (`▌`, `▐`). Creates realistic-looking barcode effects.
+
+- **rainbow_gradient.lua**
+  - Applies a rainbow gradient to the foreground colors (red, yellow, green, cyan, blue, magenta). Creates vibrant effects while preserving characters.
+
+- **grayscale_gradient.lua**
+  - Applies a grayscale gradient using white, gray, and dark gray. Ideal for subtle, monochromatic transitions.
 
 ## 🔧 Usage
 These plugins work in two modes:
