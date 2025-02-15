@@ -1,12 +1,22 @@
 ### Script Header Format
 Each script should start with the following header:
 
--- Title: <Script Title>
--- Path: <Menu Sub-category>
--- Description: <Brief description of the script>
--- Author: <Author's Name and Contact>
--- This script uses parameters defined in the LUA_PARAMETERS.txt file.
--- https://github.com/hellocodelinux/plugins_icy_draw
+This should be a Lua comment using "--" followed by a space
+
+********************************
+** Title: <Script Title>
+** 
+** Path: <Menu Sub-category>
+** 
+** Description: <Brief description of the script>
+** 
+** Author: <Author's Name and Contact>
+** 
+** This script uses parameters defined in the LUA_PARAMETERS.txt file.
+** 
+** https://github.com/hellocodelinux/plugins_icy_draw
+** 
+********************************
 
 The Title is the name that will appear in the menu.
 The Path is the sub-category of the menu.
