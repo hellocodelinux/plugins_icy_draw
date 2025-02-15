@@ -89,6 +89,12 @@ These plugins work in two modes:
 - Use patterns as backgrounds for your artwork
 - Experiment with different color combinations
 
+## 💡 Idea
+- Share your artwork created with IcyDraw plugins on our Facebook group: [ANSI ASCII Art Community](https://www.facebook.com/groups/ansiascii)
+- Get feedback, tips, and inspiration from fellow artists
+- Showcase your unique creations and see what others are making with IcyDraw
+- Join the conversation and be part of the ANSI art community!
+
 ## 🤝 Contribute!
 
 Join our community! If you have an idea for a plugin or want to improve existing ones:
