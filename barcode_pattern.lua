@@ -10,20 +10,14 @@
 
 -- https://github.com/hellocodelinux/plugins_icy_draw
 
-local patterns = {'▌', '▐', ' '}
+local patterns = {'▌', '▐'}
 math.randomseed(os.time())
 
 -- Generate horizontal pattern first
 local horizontal_pattern = {}
 for x = start_x, end_x do
-    -- 60% chance for bars, 40% for spaces
-    local rand = math.random(1, 10)
-    if rand <= 6 then
-        -- Alternate between left and right half blocks
-        horizontal_pattern[x] = (x % 2 == 0) and patterns[1] or patterns[2]
-    else
-        horizontal_pattern[x] = patterns[3]
-    end
+    -- Randomly choose between left and right half blocks
+    horizontal_pattern[x] = (math.random(1, 2) == 1) and patterns[1] or patterns[2]
 end
 
 -- Apply pattern vertically
