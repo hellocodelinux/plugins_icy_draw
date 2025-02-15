@@ -4,7 +4,7 @@ A collection of powerful plugins for IcyDraw, the modern ANSI art editor - succe
 
 [Lua Parameters Documentation](https://github.com/hellocodelinux/plugins_icy_draw/blob/main/LUA_PARAMETERS.txt) - Detailed documentation of global parameters and methods available in Lua scripts.
 
-## 🚀 Available Plugins (23)
+## 🚀 Available Plugins (25)
 
 - **chessboard.lua**
   - This script draws a chessboard pattern using alternating block characters (`█` and ` `). Ideal for creating classic board game visuals.
@@ -74,6 +74,9 @@ A collection of powerful plugins for IcyDraw, the modern ANSI art editor - succe
 
 - **grayscale_gradient.lua**
   - Applies a grayscale gradient using white, gray, and dark gray. Ideal for subtle, monochromatic transitions.
+
+- **random_mandala.lua**
+  - Generates a symmetrical mandala pattern using block characters. Creates beautiful, randomized mandala designs.
 
 ## 🔧 Usage
 These plugins work in two modes:
