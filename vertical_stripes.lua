@@ -1,5 +1,7 @@
 -- Title: Vertical Striped Pattern
 
+-- Path: Patterns
+
 -- Description: Draws a vertical striped pattern in a rectangular region.
 
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)

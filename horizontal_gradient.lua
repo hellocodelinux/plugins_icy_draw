@@ -1,5 +1,7 @@
 -- Title: Horizontal Gradient Pattern
 
+-- Path: Patterns
+
 -- Description: Draws a horizontal gradient pattern in a rectangular region.
 
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)

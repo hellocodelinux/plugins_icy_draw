@@ -1,5 +1,7 @@
 -- Title: Shadow Effect
 
+-- Path: Effects
+
 -- Description: This script creates a shadow effect by adding a dotted block to the right of each solid block in the selected area.
 
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)

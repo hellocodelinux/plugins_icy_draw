@@ -1,5 +1,7 @@
 -- Title: Lower Intensity
 
+-- Path: Effects
+
 -- Description: Replaces blocks with a less dense block, respecting the original block's color.
 
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)

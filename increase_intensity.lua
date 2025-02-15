@@ -1,5 +1,7 @@
 -- Title: Increase Intensity
 
+-- Path: Effects
+
 -- Description: Replaces blocks with a more dense block, respecting the original block's color.
 
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)

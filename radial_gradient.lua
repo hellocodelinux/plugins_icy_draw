@@ -1,5 +1,7 @@
 -- Title: Radial Gradient Pattern
 
+-- Path: Patterns
+
 -- Description: Draws a radial gradient pattern from a center point.
 
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)

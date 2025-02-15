@@ -1,5 +1,7 @@
 -- Title: Color Transformer
 
+-- Path: Colors
+
 -- Description: Transforms the colors of a rectangular region by inverting them.
 
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)

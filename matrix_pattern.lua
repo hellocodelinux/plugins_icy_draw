@@ -1,5 +1,7 @@
 -- Title: Matrix Digital Rain Pattern
 
+-- Path: Patterns
+
 -- Description: Creates a Matrix-style digital rain pattern using katakana characters and numbers.
 
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)

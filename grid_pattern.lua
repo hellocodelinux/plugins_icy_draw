@@ -1,5 +1,7 @@
 -- Title: Grid Pattern
 
+-- Path: Patterns
+
 -- Description: Draws a grid pattern on the screen.
 
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)
