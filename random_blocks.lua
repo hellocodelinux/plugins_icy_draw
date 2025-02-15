@@ -1,8 +1,12 @@
 -- Title: Random Block Fill Pattern
 
+-- Path: Patterns
+
 -- Description: Draws a random block fill pattern in a rectangular region.
 
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)
+
+-- Path: Patterns
 
 -- This script uses parameters defined in the LUA_PARAMETERS.txt file.
 

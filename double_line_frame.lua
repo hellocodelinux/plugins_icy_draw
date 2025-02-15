@@ -1,5 +1,7 @@
 -- Title: Double-Line Frame
 
+-- Path: Borders
+
 -- Description: Draws a double-line frame around a rectangular region.
 
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)

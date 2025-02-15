@@ -1,5 +1,7 @@
 -- Title: Random Half-Block Fill Pattern
 
+-- Path: Patterns
+
 -- Description: Draws a random half-block fill pattern in a rectangular region.
 
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)

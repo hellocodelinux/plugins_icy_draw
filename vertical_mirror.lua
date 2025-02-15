@@ -1,5 +1,7 @@
 -- Title: Vertical Mirror Pattern
 
+-- Path: Patterns
+
 -- Description: Creates a vertical mirror copy outside of a rectangular region.
 
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)

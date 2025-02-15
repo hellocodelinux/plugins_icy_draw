@@ -1,5 +1,7 @@
 -- Title: Chessboard Pattern
 
+-- Path: Patterns
+
 -- Description: This script draws a chessboard pattern.
 
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)

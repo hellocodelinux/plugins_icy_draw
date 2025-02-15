@@ -1,5 +1,7 @@
 -- Title: Horizontal Striped Pattern
 
+-- Path: Patterns
+
 -- Description: Draws a horizontal striped pattern in a rectangular region.
 
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)

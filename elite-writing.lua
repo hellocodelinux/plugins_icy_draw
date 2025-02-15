@@ -1,5 +1,7 @@
 -- Title: Elite Text Converter
 
+-- Path: Text
+
 -- Description: Converts text to the Elite typewriter font using CP437 characters for ANSI.
 
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)
