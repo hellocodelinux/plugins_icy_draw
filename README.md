@@ -62,6 +62,12 @@ A collection of powerful plugins for IcyDraw, the modern ANSI art editor - succe
 - **radial_gradient.lua**
   - Draws a radial gradient pattern from a central point using block characters with varying densities (`█`, `▓`, `▒`, `░`). Ideal for smooth, circular transition effects.
 
+- **lowercase_to_uppercase.lua**
+  - Converts all lowercase letters (a-z) to uppercase (A-Z). Useful for standardizing text to uppercase.
+
+- **uppercase_to_lowercase.lua**
+  - Converts all uppercase letters (A-Z) to lowercase (a-z). Useful for standardizing text to lowercase.
+
 ## 🔧 Usage
 These plugins work in two modes:
 - On a selected area (when you make a selection)
