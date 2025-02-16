@@ -1,8 +1,10 @@
-# IcyDraw Plugins Collection 🎨
+# ❄️ IcyDraw Plugins Collection 🎨
 
 A collection of powerful plugins for IcyDraw, the modern ANSI art editor - successor to the classic MysticDraw (1996-2003).
 
 [Lua Parameters Documentation](https://github.com/hellocodelinux/plugins_icy_draw/blob/main/LUA_PARAMETERS.txt) - Detailed documentation of global parameters and methods available in Lua scripts.
+
+### !Combine plugins for unique effects!
 
 ## 💝 Support the Project
 
@@ -12,7 +14,7 @@ If you find these plugins useful and want to support their continued development
 
 Your support keeps this project alive! 🙏 Thank you!
 
-## 🚀 Available Plugins (25)
+## 🚀 Available Plugins
 
 - **chessboard.lua**
   - This script draws a chessboard pattern using alternating block characters (`█` and ` `). Ideal for creating classic board game visuals.
@@ -22,6 +24,9 @@ Your support keeps this project alive! 🙏 Thank you!
 
 - **double_line_frame.lua**
   - Draws a double-line frame using double-line box-drawing characters (`╔`, `╗`, `╚`, `╝`, `═`, `║`). Perfect for highlighting sections.
+
+- **single_line_frame.lua**
+  - Draws a single-line frame using single-line box-drawing characters (`┌`, `┐`, `└`, `┘`, `─`, `│`). Perfect for highlighting sections.
 
 - **elite-writing.lua**
   - Converts text to the Elite typewriter font, giving a retro typewriter effect. Uses a custom set of characters for authenticity (e.g., `ε`, `Σ`, `¡`).
@@ -48,7 +53,7 @@ Your support keeps this project alive! 🙏 Thank you!
   - Draws a random half-block fill pattern using half-block characters (`▀`, `▄`, `▌`, `▐`). Adds a textured, semi-transparent look.
 
 - **random-colors.lua**
-  - Applies random foreground colors while maintaining background. Automatically uses bright colors (8-15) on dark backgrounds and dark colors (0-7) on bright backgrounds for optimal contrast. Perfect for creating readable colorful text.
+  - Applies random foreground colors while maintaining background. Automatically uses bright on dark backgrounds and dark colors on bright backgrounds for optimal contrast.
 
 - **shadow_effect.lua**
   - This script creates a shadow effect by adding a dotted block (`░`) to the right of each solid block (`█`). Enhances depth and dimension.
@@ -96,12 +101,11 @@ These plugins work in two modes:
 - [IcyDraw GitHub Repository](https://github.com/mkrueger/icy_tools/tree/master/crates/icy_draw) - IcyDraw is a full features ansi drawing tool doing things a bit different than other tools.
 - [IcyDraw Compatible Fonts](https://github.com/hellocodelinux/fonts_icy_draw) - Collection of fonts compatible with both THEDRAW (MSDOS) and ICY_DRAW
 
-## 💡 Tips
+## 💡 Tips and Idea
 - Combine plugins for unique effects
 - Use patterns as backgrounds for your artwork
 - Experiment with different color combinations
 
-## 💡 Idea
 - Share your artwork created with IcyDraw plugins on our Facebook group: [ANSI ASCII Art Community](https://www.facebook.com/groups/ansiascii)
 - Get feedback, tips, and inspiration from fellow artists
 - Showcase your unique creations and see what others are making with IcyDraw
