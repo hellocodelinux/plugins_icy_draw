@@ -48,7 +48,7 @@ Your support keeps this project alive! 🙏 Thank you!
   - Draws a random half-block fill pattern using half-block characters (`▀`, `▄`, `▌`, `▐`). Adds a textured, semi-transparent look.
 
 - **random-colors.lua**
-  - Draws a random color fill pattern using ANSI color codes. Perfect for vibrant, colorful backgrounds.
+  - Applies random foreground colors while maintaining background. Automatically uses bright colors (8-15) on dark backgrounds and dark colors (0-7) on bright backgrounds for optimal contrast. Perfect for creating readable colorful text.
 
 - **shadow_effect.lua**
   - This script creates a shadow effect by adding a dotted block (`░`) to the right of each solid block (`█`). Enhances depth and dimension.
