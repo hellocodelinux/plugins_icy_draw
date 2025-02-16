@@ -1,6 +1,6 @@
 -- Title: Random Colors
 -- Path: Colors
--- Description: Creates high-contrast random foreground colors while preserving backgrounds. Uses bright colors (8-15) on dark backgrounds and dark colors (0-7) on bright backgrounds for optimal readability.
+-- Description: Creates high-contrast random foreground colors while preserving backgrounds. Avoids low-contrast combinations.
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)
 
 local function is_bright_color(color)
@@ -8,11 +8,12 @@ local function is_bright_color(color)
 end
 
 local function get_random_dark()
-    return math.random(0, 7)
+    local color = math.random(1, 6)
+    return color
 end
 
 local function get_random_bright()
-    return math.random(8, 15)
+    return math.random(9, 14)
 end
 
 if start_x > end_x then
