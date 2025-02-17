@@ -91,6 +91,9 @@ Your support keeps this project alive! 🙏 Thank you!
 - **random_mandala.lua**
   - Generates a symmetrical mandala pattern using block characters. Creates beautiful, randomized mandala designs.
 
+- **date_today.lua**
+  - Inserts today's date into the screen
+
 ## 🔧 Usage
 These plugins work in two modes:
 - On a selected area (when you make a selection)
