@@ -2,13 +2,19 @@
 
 A collection of powerful plugins for IcyDraw, the modern ANSI art editor - successor to the classic MysticDraw (1996-2003).
 
+## 🧩 Utilize
+
+```
+git clone https://github.com/hellocodelinux/plugins_icy_draw ~/.config/icy_draw/data/plugins
+```
+
 [Lua Parameters Documentation](https://github.com/hellocodelinux/plugins_icy_draw/blob/main/LUA_PARAMETERS.txt) - global parameters and methods available in Lua scripts.
 
 [Lua ayuda de comandos en español](https://github.com/hellocodelinux/plugins_icy_draw/blob/main/lua_comandos_ayuda.txt) - algunos comando que te ayudaran en lua
 
 [Lua Command help in English](https://github.com/hellocodelinux/plugins_icy_draw/blob/main/lua_command_help.txt) - Some commands that will help you in Lua
 
-### !Combine plugins for unique effects!
+### ✨ !Combine plugins for unique effects! ✨
 
 ## 💝 Support the Project
 
