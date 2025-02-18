@@ -138,3 +138,9 @@ All contributions are welcome. Together we can make IcyDraw even better!
 
 ---
 *Created with ❄️ for the ANSI art community*
+
+![Visitas](https://komarev.com/ghpvc/?username=hellocodelinux&color=blue)
+
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hellocodelinux&show_icons=true&theme=dark)
+
