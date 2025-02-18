@@ -2,6 +2,8 @@
 
 A collection of powerful plugins for IcyDraw, the modern ANSI art editor - successor to the classic MysticDraw (1996-2003).
 
+<img src="https://pbs.twimg.com/media/GkEjY0nXIAA5hWH?format=jpg&name=small" width="300">
+
 ## 🧩 Utilize
 
 ```
