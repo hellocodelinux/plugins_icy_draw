@@ -12,9 +12,9 @@ git clone https://github.com/hellocodelinux/plugins_icy_draw ~/.config/icy_draw/
 
 [Lua Parameters Documentation](https://github.com/hellocodelinux/plugins_icy_draw/blob/main/LUA_PARAMETERS.txt) - global parameters and methods available in Lua scripts.
 
-[Lua ayuda de comandos en español](https://github.com/hellocodelinux/plugins_icy_draw/blob/main/lua_comandos_ayuda.txt) - algunos comando que te ayudaran en lua
+[Lua ayuda de comandos en español](https://github.com/hellocodelinux/plugins_icy_draw/blob/main/LUA_COMANDOS_AYUDA.txt) - algunos comando que te ayudaran en lua
 
-[Lua Command help in English](https://github.com/hellocodelinux/plugins_icy_draw/blob/main/lua_command_help.txt) - Some commands that will help you in Lua
+[Lua Command help in English](https://github.com/hellocodelinux/plugins_icy_draw/blob/main/LUA_COMMAND_HELP.txt) - Some commands that will help you in Lua
 
 ### ✨ !Combine plugins for unique effects! ✨
 
