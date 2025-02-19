@@ -106,6 +106,9 @@ Your support keeps this project alive! 🙏 Thank you!
 - **date_today.lua**
   - Inserts today's date into the screen
 
+- **one_color.lua**
+  - Changes the entire foreground color of the selection to the selected color
+  
 ## 🔧 Usage
 These plugins work in two modes:
 - On a selected area (when you make a selection)
