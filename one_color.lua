@@ -17,13 +17,18 @@ end
 
 -- The following block loops through every position (x, y) within the selected area.
 -- It starts from the top-left corner (start_x, start_y) and goes to the bottom-right corner (end_x, end_y).
+
 for y = start_y, end_y do  -- Loop through each row (Y coordinate) from start_y to end_y.
     for x = start_x, end_x do  -- Loop through each column (X coordinate) from start_x to end_x.
-        -- For each position (x, y), get the character at that location in the buffer.
-        -- This retrieves ONLY the character (symbol) without considering its current color.
-        local char = buf:get_char(x, y)
 
-        -- This step only sets the character back, IGNORING any color information.
+        -- For each position (x, y), get the character at that location in the buffer.
+        -- This retrieves ONLY the character without considering foreground color.
+        local char = buf:get_char(x, y)
+        local fondo = buf:get_bg(x, y)
+
+-- Returns the colorless character, preserving the background color
         buf:set_char(x, y, char)
+        buf:set_bg(x, y, fondo)
     end
 end
+
