@@ -116,6 +116,9 @@ These plugins work in two modes:
 - Some plugins use the foreground and background colors that are currently selected
 
 ## 🔗 Links
+
+- [icy_tools_bin repository](https://github.com/hellocodelinux/icy_tools_bin) - This repository provides precompiled binaries of IcyDraw.
+
 - [IcyDraw GitHub Repository](https://github.com/mkrueger/icy_tools/tree/master/crates/icy_draw) - IcyDraw is a full features ansi drawing tool doing things a bit different than other tools.
 - [IcyDraw Compatible Fonts](https://github.com/hellocodelinux/fonts_icy_draw) - Collection of fonts compatible with both THEDRAW (MSDOS) and ICY_DRAW
 
