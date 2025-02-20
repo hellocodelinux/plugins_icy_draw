@@ -1,0 +1,101 @@
+1. `print("texto")` - Imprime un texto en la consola.
+2. `x = 10` - Asigna el valor 10 a la variable `x`.
+3. `if x > 5 then ... end` - Condicional, ejecuta el bloque si la condición es verdadera.
+4. `for i = 1, 10 do ... end` - Bucle que repite el bloque de código 10 veces.
+5. `while x < 10 do ... end` - Bucle mientras `x` sea menor que 10.
+6. `repeat ... until x == 10` - Bucle que se repite hasta que `x` sea igual a 10.
+7. `function nombre_funcion() ... end` - Define una función.
+8. `table = {1, 2, 3}` - Crea una tabla (array).
+9. `table[1]` - Accede al primer valor de la tabla.
+10. `#table` - Obtiene el tamaño de una tabla.
+11. `local x = 20` - Declara una variable local `x` con valor 20.
+12. `return` - Devuelve un valor de una función.
+13. `x = 10 + 5` - Suma 10 y 5, y asigna el resultado a `x`.
+14. `x = 10 - 5` - Resta 5 de 10, y asigna el resultado a `x`.
+15. `x = 10 * 5` - Multiplica 10 por 5, y asigna el resultado a `x`.
+16. `x = 10 / 5` - Divide 10 entre 5, y asigna el resultado a `x`.
+17. `x = 10 % 3` - Obtiene el residuo de la división de 10 entre 3.
+18. `x = 2^3` - Potencia de 2 elevado a 3.
+19. `x = math.sqrt(16)` - Raíz cuadrada de 16.
+20. `x = math.sin(math.pi / 2)` - Seno de 90 grados.
+21. `x = math.cos(math.pi)` - Coseno de 180 grados.
+22. `x = math.abs(-10)` - Valor absoluto de -10.
+23. `x = math.random()` - Genera un número aleatorio entre 0 y 1.
+24. `x = math.random(1, 10)` - Genera un número aleatorio entre 1 y 10.
+25. `x = math.floor(4.7)` - Redondea hacia abajo (4).
+26. `x = math.ceil(4.7)` - Redondea hacia arriba (5).
+27. `x = string.len("Hola")` - Longitud de la cadena de texto.
+28. `x = string.upper("hola")` - Convierte el texto a mayúsculas.
+29. `x = string.lower("HOLA")` - Convierte el texto a minúsculas.
+30. `x = string.sub("Hola Mundo", 1, 4)` - Subcadena de "Hola Mundo" (desde 1 hasta 4).
+31. `x = string.find("Hola Mundo", "Mundo")` - Encuentra la posición de "Mundo".
+32. `x = string.gsub("Hola Mundo", "Hola", "Adiós")` - Sustituye "Hola" por "Adiós".
+33. `x = string.rep("a", 5)` - Repite el carácter "a" 5 veces.
+34. `x = string.reverse("Hola")` - Invierte la cadena "Hola".
+35. `x = tonumber("123")` - Convierte un string a número.
+36. `x = tostring(123)` - Convierte un número a string.
+37. `x = io.read()` - Lee la entrada del usuario.
+38. `io.write("Texto: ")` - Imprime sin salto de línea.
+39. `file = io.open("archivo.txt", "w")` - Abre un archivo para escritura.
+40. `file:write("Texto")` - Escribe en el archivo.
+41. `file:close()` - Cierra el archivo.
+42. `file = io.open("archivo.txt", "r")` - Abre un archivo para lectura.
+43. `file:read("*all")` - Lee todo el contenido del archivo.
+44. `os.time()` - Devuelve la hora actual en segundos desde 1970.
+45. `os.date()` - Devuelve la fecha actual.
+46. `os.difftime(t1, t2)` - Calcula la diferencia de tiempo entre dos fechas.
+47. `x = table.insert(t, 10)` - Inserta 10 al final de la tabla `t`.
+48. `x = table.remove(t)` - Elimina el último valor de la tabla `t`.
+49. `x = table.sort(t)` - Ordena la tabla `t`.
+50. `x = table.concat(t, ", ")` - Une los elementos de la tabla con coma.
+51. `x = type(10)` - Devuelve el tipo de la variable (en este caso "number").
+52. `x = type("texto")` - Devuelve el tipo de la variable (en este caso "string").
+53. `x = next(t)` - Devuelve el siguiente par clave/valor de la tabla.
+54. `x = pcall(function) ` - Ejecuta una función de forma segura, manejando errores.
+55. `x = coroutine.create(function)` - Crea una nueva corrutina.
+56. `coroutine.resume(co)` - Reanuda la ejecución de una corrutina.
+57. `coroutine.yield()` - Pausa la ejecución de una corrutina.
+58. `x = debug.getinfo(1)` - Obtiene información sobre la función actual.
+59. `x = os.execute("comando")` - Ejecuta un comando del sistema.
+60. `x = math.pi` - Valor de Pi.
+61. `x = math.huge` - Representa un número infinito.
+62. `x = table.move(t1, 1, 2, 3, t2)` - Mueve elementos de `t1` a `t2`.
+63. `x = math.rad(180)` - Convierte grados a radianes.
+64. `x = math.deg(math.pi)` - Convierte radianes a grados.
+65. `x = io.popen("ls")` - Ejecuta un comando y devuelve la salida.
+66. `x = tonumber("123.45")` - Convierte cadena en número flotante.
+67. `x = string.char(72, 101, 108)` - Convierte números ASCII a texto ("Hel").
+68. `x = string.byte("Hola", 1)` - Obtiene el código ASCII del primer carácter.
+69. `x = string.gmatch("a b c", "%a")` - Itera sobre caracteres alfabéticos en un string.
+70. `x = string.format("%02d", 5)` - Formatea un número con ceros a la izquierda.
+71. `x = string.match("Hola Mundo", "%w+")` - Extrae la primera palabra de un string.
+72. `x = math.log(100)` - Logaritmo natural de 100.
+73. `x = math.exp(2)` - Exponencial de 2.
+74. `x = math.fmod(10, 3)` - Resto de la división de 10 entre 3.
+75. `x = os.setlocale("es_ES")` - Establece la configuración regional a español.
+76. `x = table.unpack(t)` - Desempaqueta una tabla en variables.
+77. `x = assert(valor)` - Lanza un error si el valor es `nil`.
+78. `x = error("Mensaje de error")` - Lanza un error con un mensaje personalizado.
+79. `x = string.gmatch("uno dos tres", "%a+")` - Itera sobre las palabras en un string.
+80. `x = coroutine.status(co)` - Obtiene el estado de una corrutina.
+81. `x = math.atan(1)` - Calcula el arcotangente de 1.
+82. `x = math.deg(math.atan(1))` - Convierte el resultado de atan a grados.
+83. `x = math.rad(90)` - Convierte 90 grados a radianes.
+84. `x = table.insert(t, pos, 10)` - Inserta 10 en la posición `pos` de la tabla.
+85. `x = table.remove(t, pos)` - Elimina el elemento en la posición `pos` de la tabla.
+86. `x = math.randomseed(os.time())` - Establece la semilla para los números aleatorios.
+87. `x = math.acos(1)` - Calcula el arcocoseno de 1.
+88. `x = math.asin(0.5)` - Calcula el arco seno de 0.5.
+89. `x = string.find("Hola Mundo", "Mundo")` - Busca una subcadena.
+90. `x = string.match("Hola Mundo", "%S+")` - Extrae la primera palabra no blanca.
+91. `x = table.setn(t, 10)` - Establece el tamaño de la tabla a 10.
+92. `x = io.input(file)` - Establece el archivo como entrada estándar.
+93  `x = io.output(file)` - Establece el archivo como salida estándar.
+94. `x = io.flush()` - Fuerza la escritura del buffer de salida.
+95. `x = string.reverse("abcd")` - Invierte la cadena "abcd".
+96. `x = string.format("Número: %d", 10)` - Formatea un número en un string.
+97. `x = os.clock()` - Obtiene el tiempo de CPU utilizado.
+98. `x = table.foreach(t, function(k, v) print(k, v) end)` - Itera sobre la tabla.
+99. `x = math.ceil(4.1)` - Redondea hacia arriba el número.
+100. `x = math.floor(4.9)` - Redondea hacia abajo el número.
+
