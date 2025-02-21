@@ -1,3 +1,6 @@
+⚠️ **ATTENTION!** ⚠️  
+This repository will be moved to: [https://gitea.gleeze.com/lu9dce](https://gitea.gleeze.com/lu9dce) 🚀
+
 # ❄️ IcyDraw Plugins Collection 🎨
 
 A collection of powerful plugins for IcyDraw, the modern ANSI art editor - successor to the classic MysticDraw (1996-2003).
@@ -144,9 +147,4 @@ All contributions are welcome. Together we can make IcyDraw even better!
 
 ---
 *Created with ❄️ for the ANSI art community*
-
-![Visitas](https://komarev.com/ghpvc/?username=hellocodelinux&color=blue)
-
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hellocodelinux&show_icons=true&theme=dark)
 
