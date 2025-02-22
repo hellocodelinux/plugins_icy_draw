@@ -1,5 +1,7 @@
 ⚠️ **ATTENTION!** ⚠️  
-This repository will be moved to: [https://gitea.gleeze.com/lu9dce](https://gitea.gleeze.com/lu9dce) 🚀
+The official restore is: [https://gitea.gleeze.com/lu9dce](https://gitea.gleeze.com/lu9dce) 🚀
+
+github is just a mirror
 
 # ❄️ IcyDraw Plugins Collection 🎨
 
