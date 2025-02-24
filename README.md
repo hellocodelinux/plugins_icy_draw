@@ -113,6 +113,9 @@ Your support keeps this project alive! 🙏 Thank you!
 
 - **one_color.lua**
   - Changes the entire foreground color of the selection to the selected color
+
+- **sunset_gradient.lua**
+  - Applies a sunset gradient effect to the foreground colors (red, orange, yellow, pink, purple, blue). Creates warm, dramatic transitions that emulate a sunset sky while preserving characters.
   
 ## 🔧 Usage
 These plugins work in two modes:
@@ -149,4 +152,3 @@ All contributions are welcome. Together we can make IcyDraw even better!
 
 ---
 *Created with ❄️ for the ANSI art community*
-
