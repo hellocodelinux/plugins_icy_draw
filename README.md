@@ -75,6 +75,9 @@ Your support keeps this project alive! 🙏 Thank you!
 - **shadow_effect.lua**
   - This script creates a shadow effect by adding a dotted block (`░`) to the right of each solid block (`█`). Enhances depth and dimension.
 
+- **enhanced_shadow.lua**
+  - Improved shadow effect with configurable direction, length, and intensity levels. Creates more realistic shadows using a gradient of block densities (`▓`, `▒`, `░`). Perfect for adding depth to your ANSI art with customizable shadow placement. (You can configure it from the script)
+
 - **vertical_gradient.lua**
   - Draws a vertical gradient pattern using a range of block characters with varying densities (`█`, `▓`, `▒`, `░`). Ideal for smooth vertical transitions.
 
