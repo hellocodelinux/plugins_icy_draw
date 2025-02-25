@@ -1,5 +1,8 @@
-⚠️ **ATTENTION!** ⚠️  
-The official restore is: [https://gitea.gleeze.com/lu9dce](https://gitea.gleeze.com/lu9dce) 🚀
+⚠️ **ATTENTION!** ⚠️
+
+The official repository is: [https://gitea.gleeze.com/lu9dce](https://gitea.gleeze.com/lu9dce) 🚀
+
+This repository is a mirror for improved accessibility and backup purposes.
 
 github is just a mirror
 
