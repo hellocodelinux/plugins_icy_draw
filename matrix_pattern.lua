@@ -1,15 +1,16 @@
--- Title: Matrix Digital Rain Pattern
+-- Title: Matrix Pattern
 -- Path: Patterns
--- Description: Creates a Matrix-style digital rain pattern using katakana characters and numbers.
+-- Description: Creates a more realistic Matrix-style digital rain pattern with varying speeds, lengths, and fades.
 -- Author: Eduardo Castillo (hellocodelinux@gmail.com)
 -- This script uses parameters defined in the LUA_PARAMETERS.txt file.
 -- https://github.com/hellocodelinux/plugins_icy_draw
 
--- A table containing Katakana characters and numbers to simulate the "Matrix" digital rain effect.
+-- A table containing Katakana characters, numbers, and some symbols to simulate the "Matrix" digital rain effect.
 local matrix_chars = {
     'ｱ', 'ｲ', 'ｳ', 'ｴ', 'ｵ', 'ｶ', 'ｷ', 'ｸ', 'ｹ', 'ｺ', 'ｻ', 'ｼ', 'ｽ', 'ｾ', 'ｿ',
     'ﾀ', 'ﾁ', 'ﾂ', 'ﾃ', 'ﾄ', 'ﾅ', 'ﾆ', 'ﾇ', 'ﾈ', 'ﾉ', 'ﾊ', 'ﾋ', 'ﾌ', 'ﾍ', 'ﾎ',
-    '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'
+    '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
+    '!', '@', '#', '$', '%', '^', '&', '*'
 }
 
 -- Ensure that start_x is less than or equal to end_x. If not, swap them.
@@ -21,44 +22,95 @@ if start_y > end_y then start_y, end_y = end_y, start_y end
 -- Seed the random number generator with the current time to ensure different results each run.
 math.randomseed(os.time())
 
+-- Function to generate a random color intensity
+local function get_random_color_intensity()
+    local color_chance = math.random(1, 10)
+    if color_chance <= 5 then
+        return 10  -- Bright green (50% chance)
+    elseif color_chance <= 7 then
+        return 7   -- Light gray (20% chance)
+    elseif color_chance <= 9 then
+        return 8    -- Dark gray(20% chance)
+    else
+        return 15 --very bright white(10% chance)
+    end
+end
+
+-- Function to get the intensity of a color
+local function get_intensity(intensity)
+    if intensity == 0 then
+        return 2   -- Very dim green
+    elseif intensity == 1 then
+        return 10   -- bright green
+    elseif intensity == 2 then
+        return 7   -- Light gray
+    elseif intensity == 3 then
+        return 15   --very bright white
+    else
+        return 8 --dark gray
+    end
+end
+
+-- Function to create a tail effect
+local function create_tail(x, y, length)
+    local current_y = y
+    for i = 1, length do
+        if current_y <= end_y then
+            local tail_char = matrix_chars[math.random(1, #matrix_chars)]
+            local tail_color = get_intensity(math.random(0, 3))
+            if tail_color == 15 then
+                tail_color = 10
+            end
+            buf:set_char(x, current_y, tail_char)
+            buf:set_fg(x, current_y, tail_color)
+        end
+        current_y = current_y - 1
+    end
+end
+
 -- Loop through each column (x-coordinate) from start_x to end_x.
 for x = start_x, end_x do
-    -- Generate a random density value between 2 and 4. This controls how often characters appear.
-    local density = math.random(2, 4)
-    
-    -- Loop through each row (y-coordinate) from start_y to end_y.
-    for y = start_y, end_y do
+    -- Generate a random density value between 1 and 3. This controls how often characters appear.
+    local density = math.random(1, 3)
+
+    -- Randomize the length of the rain stream for a more natural effect
+    local rain_length = math.random(5, 15)
+
+    -- Loop start in random position. Now start from top to bottom.
+    local start_rain = math.random(start_y, end_y)
+
+    -- Loop through each row with the stream rain, going from top to bottom.
+    for y = start_rain, start_y, -1 do -- Start from `start_rain` and go up to `start_y`
         -- Randomly decide whether to place a character at this position based on the density.
         if math.random(1, density) == 1 then
             -- Pick a random character from the `matrix_chars` table.
             local char = matrix_chars[math.random(1, #matrix_chars)]
-            
+
             -- Set the character at the current (x, y) position in the buffer.
             buf:set_char(x, y, char)
-            
+
             -- Randomly determine the color intensity of the character.
-            local color_chance = math.random(1, 10)
-            if color_chance <= 6 then
-                -- 60% chance to set the foreground color to bright green (color code 10).
-                buf:set_fg(x, y, 10)
-            elseif color_chance <= 8 then
-                -- 20% chance to set the foreground color to light gray (color code 7).
-                buf:set_fg(x, y, 7)
-            else
-                -- 20% chance to set the foreground color to dark gray (color code 8).
-                buf:set_fg(x, y, 8)
+            local color_fg = get_random_color_intensity()
+            buf:set_fg(x, y, color_fg)
+
+            -- Create the tail
+            if color_fg == 10 or color_fg == 15 then
+                create_tail(x, y+1, rain_length)
             end
-            
-            -- Randomly adjust the intensity of the character's color.
-            local intensity = math.random(0, 3)
-            if intensity == 0 then
-                -- 25% chance to set the foreground color to very dim green (color code 2).
-                buf:set_fg(x, y, 2)
-            elseif intensity == 3 then
-                -- 25% chance to set the foreground color to very bright white (color code 15).
-                buf:set_fg(x, y, 15)
+
+            -- Create the fade
+            if y < end_y then -- Check if y is not the last row
+                local next_char = buf:get_char(x, y + 1)
+                if next_char ~= nil then
+                    if color_fg == 10 then
+                        buf:set_fg(x, y+1, 2)
+                    elseif color_fg == 15 then
+                        buf:set_fg(x, y+1, 10)
+                    elseif color_fg == 7 then
+                         buf:set_fg(x,y+1,8)
+                    end
+                end
             end
         end
     end
 end
-
