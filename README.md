@@ -12,6 +12,8 @@ A collection of powerful plugins for IcyDraw, the modern ANSI art editor - succe
 
 <img src="https://pbs.twimg.com/media/GkEjY0nXIAA5hWH?format=jpg&name=small" width="300">
 
+### Discord -> [https://discord.gg/Xn9xJFqd]
+
 ## 🧩 Utilize
 
 ```
