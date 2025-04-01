@@ -55,7 +55,7 @@ end
 local function create_tail(x, y, length)
     local current_y = y
     for i = 1, length do
-        if current_y <= end_y then
+        if current_y >= start_y and current_y <= end_y then -- Check if within the selection area
             local tail_char = matrix_chars[math.random(1, #matrix_chars)]
             local tail_color = get_intensity(math.random(0, 3))
             if tail_color == 15 then
@@ -70,17 +70,19 @@ end
 
 -- Loop through each column (x-coordinate) from start_x to end_x.
 for x = start_x, end_x do
-    -- Generate a random density value between 1 and 3. This controls how often characters appear.
-    local density = math.random(1, 3)
+    -- Generate a random density value between 1 and 24. This controls how often characters appear.
+    local density = math.random(1, 24) -- Increased density range to make it less dense
 
     -- Randomize the length of the rain stream for a more natural effect
     local rain_length = math.random(5, 15)
 
     -- Loop start in random position. Now start from top to bottom.
-    local start_rain = math.random(start_y, end_y)
+    --local start_rain = math.random(start_y, end_y) -- Not needed anymore
 
     -- Loop through each row with the stream rain, going from top to bottom.
-    for y = start_rain, start_y, -1 do -- Start from `start_rain` and go up to `start_y`
+    --for y = end_y, start_y, -1 do -- Start from `end_y` and go down to `start_y`
+    for y_offset = 0, (end_y - start_y) do
+        local y = end_y - y_offset
         -- Randomly decide whether to place a character at this position based on the density.
         if math.random(1, density) == 1 then
             -- Pick a random character from the `matrix_chars` table.
@@ -95,19 +97,19 @@ for x = start_x, end_x do
 
             -- Create the tail
             if color_fg == 10 or color_fg == 15 then
-                create_tail(x, y+1, rain_length)
+                create_tail(x, y-1, rain_length) -- y-1 because the tail starts below
             end
 
             -- Create the fade
-            if y < end_y then -- Check if y is not the last row
-                local next_char = buf:get_char(x, y + 1)
+            if y > start_y then -- Check if y is not the first row
+                local next_char = buf:get_char(x, y - 1)
                 if next_char ~= nil then
                     if color_fg == 10 then
-                        buf:set_fg(x, y+1, 2)
+                        buf:set_fg(x, y-1, 2)
                     elseif color_fg == 15 then
-                        buf:set_fg(x, y+1, 10)
+                        buf:set_fg(x, y-1, 10)
                     elseif color_fg == 7 then
-                         buf:set_fg(x,y+1,8)
+                         buf:set_fg(x,y-1,8)
                     end
                 end
             end

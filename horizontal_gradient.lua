@@ -13,27 +13,36 @@ local hablock = '▒' -- Medium shade block
 local doblock = '░' -- Light shade block (lightest)
 
 -- Main loop to draw the gradient
-for y = start_y, end_y do
-    -- Calculate dimensions and positions
-    local total_height = end_y - start_y + 1  -- Total height of drawing area
-    local zone_height = math.ceil(total_height / 4)  -- Height of each gradient zone
-    local relative_y = y - start_y  -- Current position relative to start
-    local char_to_use
+-- Calculate the total height of the drawing area.
+local total_height = end_y - start_y + 1
 
-    -- Determine which block character to use based on vertical position
-    if relative_y < zone_height then
-        char_to_use = soblock  -- First quarter: darkest
-    elseif relative_y < zone_height * 2 then
-        char_to_use = shblock  -- Second quarter: dark
-    elseif relative_y < zone_height * 3 then
-        char_to_use = hablock  -- Third quarter: medium
-    else
-        char_to_use = doblock  -- Last quarter: lightest
-    end
-    
-    -- Draw the current line of the gradient
-    for x = start_x, end_x do
-        buf:set_char(x, y, char_to_use)  -- Place character at current position
+-- Divide the total height into four zones, each corresponding to a different block character.
+-- `math.ceil` ensures that each zone has an integer height, even if the total height is not divisible by 4.
+local zone_height = math.ceil(total_height / 4)
+
+for x = start_x, end_x do
+    for y = start_y, end_y do
+        -- Calculate the relative position of the current y-coordinate within the drawing area.
+        local relative_y = y - start_y
+
+        -- Determine which character to use based on the relative position.
+        local char_to_use
+
+        if relative_y < zone_height then
+            -- First zone: Use the darkest block.
+            char_to_use = soblock
+        elseif relative_y < zone_height * 2 then
+            -- Second zone: Use a darker block.
+            char_to_use = shblock
+        elseif relative_y < zone_height * 3 then
+            -- Third zone: Use a lighter block.
+            char_to_use = hablock
+        else
+            -- Fourth zone: Use the lightest block.
+            char_to_use = doblock
+        end
+
+        -- Set the character at the current (x, y) position in the buffer.
+        buf:set_char(x, y, char_to_use)
     end
 end
-
